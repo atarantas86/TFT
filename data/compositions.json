@@ -1,0 +1,1316 @@
+{
+  "tierDefaults": {
+    "demacia-vayne": "S",
+    "casquette-longshot": "S",
+    "tempo-bilgewater": "S",
+    "riggs": "S",
+    "relance-sona": "A",
+    "ap-demacia": "A",
+    "vide-vertical": "A",
+    "void-kaisa": "A",
+    "freljord-yunara": "A",
+    "yunara-95": "A",
+    "bardes-brutes": "A",
+    "barde-ixtal": "A",
+    "zaun-seraphine": "A",
+    "shurima-seraphine": "A",
+    "debloquez-brock": "A",
+    "gp-slayer": "A",
+    "tempete-implacable": "B",
+    "invocateurs-freljord": "B",
+    "freljord-shurima": "B",
+    "complices-criminels": "B",
+    "freres-sang": "B",
+    "gardiens-kalista": "B",
+    "ap-noxus": "B",
+    "kindred-noxus": "B",
+    "kindred-senna": "B",
+    "bilgewater-tf": "B",
+    "garcon-sauveur": "B",
+    "blood-brothers": "B",
+    "ligue-draven": "B",
+    "mel-flex": "B",
+    "10-noxus": "B",
+    "arcaniste-yordle": "B",
+    "arcaniste-shurima": "B",
+    "ryze-bilgewater": "B",
+    "shurima-ryze": "B",
+    "viego-roi": "B",
+    "malevore": "X"
+  },
+  "tierMultipliers": {
+    "S": 1.35,
+    "A": 1.18,
+    "B": 1.00,
+    "X": 0.90
+  },
+  "compositions": [
+    {
+      "id": "demacia-vayne",
+      "name": "DEMACIA VAYNE",
+      "diff": "easy",
+      "tag": "Reroll @7",
+      "carry": "Vayne",
+      "items": {
+        "guinsoo": 15,
+        "ie": 12,
+        "lw": 10,
+        "gs": 8,
+        "titans": 6,
+        "bt": 5,
+        "runaan": 4,
+        "statikk": 3
+      },
+      "units": {
+        "Vayne": 12,
+        "Jarvan IV": 8,
+        "Sona": 4,
+        "Poppy": 5,
+        "Lulu": 3
+      },
+      "bisItems": ["guinsoo", "ie", "lw"],
+      "bisType": "ad",
+      "opener": "Demacia + Yordles",
+      "hold": ["Vayne", "Jarvan IV", "Poppy", "Sona"],
+      "slam": "Guinsoo sur Vayne",
+      "objective": "Vayne 3★ → Galio @8",
+      "go": "Vayne + Guinsoo + Jarvan",
+      "stop": "Pas items AD / contesté",
+      "tips": {
+        "main": "Ne visez Vayne 3★ au niveau 7 que si vous avez de bonnes améliorations ou si vous êtes en retard dans votre progression ; le niveau 8 est trop cher. Priorité des objets : Vayne > Tank > Kai'sa. Améliorez Rageblade rapidement pour Vayne, mais passez à Kai'sa plus tard.",
+        "stage2": "Pour enchaîner les victoires, privilégiez Vayne et une Demacia améliorée rapidement. Les unités du Néant ou les Yordles forment une combinaison efficace avec Demacia.",
+        "stage3": "Ajoutez plus de Demaciens au fur et à mesure de votre progression. Concentrez-vous sur la première ligne pour laisser plus de temps à Vayne Lame enragée pour monter en puissance.",
+        "stage4": "Atteignez le niveau 7 et tentez d'obtenir Vayne 2. Ensuite, passez au niveau 8 pour débloquer Galio. En fin de partie, passez du niveau 7 à 5 en Demacia."
+      }
+    },
+    {
+      "id": "relance-sona",
+      "name": "RELANCE SONA",
+      "diff": "easy",
+      "tag": "Reroll 1-cost",
+      "carry": "Sona",
+      "items": {
+        "archangel": 15,
+        "jg": 12,
+        "nashors": 10,
+        "dcap": 8,
+        "shojin": 6,
+        "morello": 5,
+        "hoj": 4
+      },
+      "units": {
+        "Sona": 12,
+        "Jarvan IV": 8,
+        "Bard": 5,
+        "Poppy": 4
+      },
+      "bisItems": ["archangel", "jg", "nashors"],
+      "bisType": "ap",
+      "opener": "Demacia + Invokers",
+      "hold": ["Sona", "Jarvan IV", "Bard", "Poppy"],
+      "slam": "Archange sur Sona",
+      "objective": "Sona 3★ + J4 3★",
+      "go": "Sona + Archange + Jarvan",
+      "stop": "Pas d'Archange / contesté",
+      "tips": {
+        "main": "Privilégiez les objets de tank purs pour Garen (évitez Cape solaire/Étincelle). L'emplacement d'Invoker est flexible. Il est puissant avec l'emblème de Demacia pour débloquer rapidement Galio ; remplacez Xin Zhao si vous l'obtenez.",
+        "stage2": "Privilégiez les composants d'Archange pour Sona tout en collectant les premiers exemplaires de Sona et de J4. Ne lancez les dés pour Barde que si vous avez les ressources nécessaires.",
+        "stage3": "Essayez d'obtenir Sona 3★ lentement. L'idéal serait d'obtenir Jarvan 3★ également. Gardez Vaynes pour débloquer Galio, mais n'investissez pas d'objets.",
+        "stage4": "Débloquez Galio au plus vite. Obtenez Garen avec un équipement de tank complet. Lux conserve les PA restants. Passez ensuite de 7 unités de Demacia à des unités 4/5 de grande valeur."
+      }
+    },
+    {
+      "id": "ap-demacia",
+      "name": "AP DEMACIA",
+      "diff": "easy",
+      "tag": "Fast 8",
+      "carry": "Lux",
+      "items": {
+        "jg": 15,
+        "shojin": 12,
+        "void": 10,
+        "archangel": 8,
+        "bluebuff": 6,
+        "ionic": 5
+      },
+      "units": {
+        "Jarvan IV": 6,
+        "Sona": 7,
+        "Lulu": 4,
+        "Poppy": 4
+      },
+      "bisItems": ["jg", "shojin", "void"],
+      "bisType": "ap",
+      "opener": "Demacia + Yordles",
+      "hold": ["Jarvan IV", "Sona", "Lulu", "Poppy"],
+      "slam": "Gantelet + Shojin → Lux",
+      "objective": "Galio @8 → Ziggs @9",
+      "go": "Items AP + Demacia",
+      "stop": "Pas AP / lose streak",
+      "tips": {
+        "main": "Jouez avec Sona en début de partie pour accéder à Ziggs en fin de partie. Lissandra est un excellent porteur d'objets jusqu'à Zilean au niveau 9. Positionnez un côté de votre première ligne pour être encerclé pour que Lux maximise ses dégâts de zone. Objets de tank pur sur Garen.",
+        "stage2": "Privilégiez les Demacia améliorées en début de partie pour enchaîner les victoires. Les Yordles se combinent bien avec les Demacia pour des améliorations faciles.",
+        "stage3": "Ajoutez plus de Démaciens au fur et à mesure de votre progression. Vous pouvez être polyvalent en Ionia avec Xin Zhao. Ahri est un arcaniste solide à 3 pièces d'or.",
+        "stage4": "Passez rapidement au niveau 8 et débloquez Galio. La composition se stabilise autour d'un carry AP à 4 PO + Garen 2. Passez au niveau 9 pour Ziggs."
+      }
+    },
+    {
+      "id": "vide-vertical",
+      "name": "VIDE VERTICAL",
+      "diff": "easy",
+      "tag": "Rapide 9",
+      "carry": "Kai'Sa",
+      "items": {
+        "guinsoo": 15,
+        "jg": 12,
+        "statikk": 10,
+        "void": 8,
+        "titans": 6,
+        "nashors": 5
+      },
+      "units": {
+        "Kog'Maw": 12,
+        "Cho'Gath": 8,
+        "Blitzcrank": 5,
+        "Caitlyn": 3
+      },
+      "bisItems": ["guinsoo", "jg", "statikk"],
+      "bisType": "ad",
+      "opener": "Néant winstreak",
+      "hold": ["Kog'Maw", "Cho'Gath", "Blitzcrank", "Caitlyn"],
+      "slam": "Guinsoo sur Kog → Kai'Sa",
+      "objective": "6 Void @8 → Baron",
+      "go": "Néant + Guinsoo + WIN",
+      "stop": "Lose early / pas Néant",
+      "tips": {
+        "main": "L'objectif principal est d'atteindre le niveau 10 pour le Baron Nashor. Mutations sur Kaisa : Épines diviseuses > Noyau de sangsue >> Modules d'adrénaline. Kaisa peut porter des objets de puissance ou d'attaque, mais la plupart privilégient les builds de puissance. Le Baron peut être positionné en retrait.",
+        "stage2": "Utilisez vos objets de manière agressive et visez une série de victoires autour de l'ouverture dans le Néant. Entrez dans le Néant au plus tard entre le niveau 2 et 5 afin de débloquer le Héraut de la Faille entre le niveau 4 et 2.",
+        "stage3": "Augmentez votre équipement de base (Néant ou Ligne de front) au fur et à mesure. Préparez l'équipement de tank pour le Héraut de la Faille. Améliorez immédiatement le Héraut de la Faille 1.",
+        "stage4": "Cherchez 6 Void au niveau 8 et tentez d'obtenir Herald 2 et Kaisa 2 équipés d'objets Baron. Utilisez Swain ou Shyvana dans votre emplacement libre. Terminez avec 9 Void et un Bruiser."
+      }
+    },
+    {
+      "id": "bardes-brutes",
+      "name": "BARDES BRUTES",
+      "diff": "easy",
+      "tag": "Reroll 2-cost",
+      "carry": "Bard",
+      "items": {
+        "jg": 12,
+        "shojin": 10,
+        "archangel": 10,
+        "warmog": 8,
+        "gargoyle": 7,
+        "sunfire": 5
+      },
+      "units": {
+        "Illaoi": 9,
+        "Shen": 9,
+        "Sion": 10,
+        "Bard": 7
+      },
+      "bisItems": ["jg", "shojin", "archangel"],
+      "bisType": "ap",
+      "opener": "Brutes + Barde",
+      "hold": ["Illaoi", "Shen", "Sion", "Bard"],
+      "slam": "Archange Barde + Tank front",
+      "objective": "Sion 3★ → Volibear",
+      "go": "Illaoi + Shen + Barde + tank",
+      "stop": "Brutes contestées",
+      "tips": {
+        "main": "Bard se débloque en rollant 4 fois avant le carrousel de l'étape 2. La série de défaites est idéale pour les rerolls gratuits en 3-2. Aphelios ou Zoé comme duo carry selon votre économie d'objets.",
+        "stage2": "Roll 4 fois avant le carrousel de l'étape 2. Il est généralement préférable de le faire en 2-3 pour constituer votre premier stock d'intérêts. Priorisez les objets de Bard.",
+        "stage3": "Montez au niveau 6 et slowroll pour les Bruisers 3★. Jouez 4 Bruisers, Targon et Bard. Priorisez Bard / Sion 3★ > Bruisers 1-cost 3★ > 3-cost 3★.",
+        "stage4": "Terminez vos 3★ et montez de niveau pour plus de Bruisers. Sett peut rentrer au niveau 9 mais le spot est flexible."
+      }
+    },
+    {
+      "id": "garcon-sauveur",
+      "name": "LE GARÇON SAUVEUR",
+      "diff": "easy",
+      "tag": "Reroll 2-cost",
+      "carry": "Ekko",
+      "items": {
+        "bt": 15,
+        "titans": 12,
+        "guinsoo": 10,
+        "hoj": 8,
+        "sterak": 6
+      },
+      "units": {
+        "Blitzcrank": 8,
+        "Cho'Gath": 7,
+        "Vi": 10,
+        "Ekko": 12
+      },
+      "bisItems": ["bt", "titans", "guinsoo"],
+      "bisType": "ad",
+      "opener": "Zaun",
+      "hold": ["Blitzcrank", "Cho'Gath", "Vi", "Ekko"],
+      "slam": "Soif-de-sang + Titans sur Ekko",
+      "objective": "Vi 3★ + Ekko 3★ → Séraphine",
+      "go": "Zaun + items AD",
+      "stop": "Pas Zaun / contesté",
+      "tips": {
+        "main": "Jouer Malzahar + Cho et 5 Zaun permet d'obtenir Séraphine et Ziggs. On peut aussi garder 5 Zaun et se concentrer sur d'autres cartes à 5 de coût (Kindred, Shyvana, Volibear, etc.). On peut également tenter d'obtenir Barde si besoin en début de partie.",
+        "stage2": "Commencez avec Ekko Zaun ou un combattant AP générique puissant comme Viego. Visez la victoire et maintenez le rythme.",
+        "stage3": "Montez au niveau 6 et tentez d'obtenir Ekko 2, Zaun 3 et Disruptor 2. Vous jouerez probablement avec Cho'Gath et Malzahar jusqu'à l'obtention de Séraphine.",
+        "stage4": "Terminez vos héros 3★ et montez en niveau pour obtenir plus de colosses, Zaun, ou des héros à 5 pièces d'or comme Shyvana, Azir ou Senna."
+      }
+    },
+    {
+      "id": "ligue-draven",
+      "name": "LIGUE DE DRAVEN",
+      "diff": "easy",
+      "tag": "Reroll 3-cost",
+      "carry": "Draven",
+      "items": {
+        "bt": 15,
+        "ie": 12,
+        "lw": 10,
+        "guinsoo": 8,
+        "gs": 6
+      },
+      "units": {
+        "Illaoi": 7,
+        "Twisted Fate": 6,
+        "Draven": 12,
+        "Nautilus": 8
+      },
+      "bisItems": ["bt", "ie", "lw"],
+      "bisType": "ad",
+      "opener": "Noxus + front",
+      "hold": ["Illaoi", "Twisted Fate", "Draven", "Nautilus"],
+      "slam": "Soif-de-sang + IE sur Draven",
+      "objective": "Draven 3★",
+      "go": "Draven + front + AD",
+      "stop": "Draven contesté",
+      "tips": {
+        "main": "Privilégiez Swain à Briar en fin de partie. Vous pouvez aussi jouer Vertical Noxus et viser Mel/Ambessa. Utilisez les boutiques de Bilgewater pour obtenir gratuitement vos cartes à 3 de coût. Ne vous concentrez pas trop sur Gangplank.",
+        "stage2": "Idéalement, commencez par une série de victoires avec Noxus ou Bilgewater pour obtenir des ressources gratuites. Équipez Draven d'objets en masse.",
+        "stage3": "Montez au niveau 6 et stabilisez-vous autour de Noxus ou Bilgewater. Si vous avez des unités clés en duo, vous pouvez en obtenir. Jouez Darius jusqu'à obtenir Swain.",
+        "stage4": "Obtenez Draven 2 et Darius 2 au niveau 7 pour stabiliser. Effectuez des invocations lentes pour obtenir des personnages 3★. Montez de niveau pour Piltover, Kindred ou un 5-cost."
+      }
+    },
+    {
+      "id": "10-noxus",
+      "name": "10 NOXUS",
+      "diff": "easy",
+      "tag": "Rapide 9",
+      "carry": "Draven",
+      "items": {
+        "bt": 15,
+        "ie": 12,
+        "lw": 10,
+        "guinsoo": 8,
+        "sterak": 6
+      },
+      "units": {
+        "Briar": 6,
+        "Illaoi": 5,
+        "Sion": 8,
+        "Draven": 10
+      },
+      "bisItems": ["bt", "ie", "lw"],
+      "bisType": "ad",
+      "opener": "Noxus vertical",
+      "hold": ["Briar", "Illaoi", "Sion", "Draven"],
+      "slam": "Items AD sur Draven",
+      "objective": "10 Noxus → Atakhan",
+      "go": "2 emblèmes Noxus + Draven",
+      "stop": "Pas emblèmes Noxus",
+      "tips": {
+        "main": "Dès que vous avez accès à 2 emblèmes Noxus, jouez souvent autour de Draven pour farmer de l'or. Atakhan invoque du même côté. Positionnez Mel face au carry ennemi. Si vous n'arrivez pas au niveau 10, passez à 3/5 emblèmes Noxus.",
+        "stage2": "Idéalement jouée avec des compositions d'ouverture solides autour de Draven et Noxus. Vous pouvez débloquer LeBlanc dès les manches JcE si vous équipez Sion avec un maximum d'objets.",
+        "stage3": "Atteignez le niveau 6 et jouez 5 Noxus dès que possible. Cherchez à obtenir un deuxième emblème Noxus ou des points d'économie pour atteindre le niveau 10.",
+        "stage4": "Montez au niveau 8 et tentez d'obtenir Ambessa 2, Swain 2 et des Dravens supplémentaires. Mel prend les objets de mana/puissance restants. Atteignez le niveau 10 à Noxus."
+      }
+    },
+    {
+      "id": "viego-roi",
+      "name": "VIEGO, LE ROI DÉCHU",
+      "diff": "easy",
+      "tag": "Reroll 1-cost",
+      "carry": "Viego",
+      "items": {
+        "bt": 15,
+        "titans": 12,
+        "qss": 10,
+        "gs": 8,
+        "ie": 6,
+        "lw": 5
+      },
+      "units": {
+        "Viego": 15,
+        "Gwen": 10,
+        "Yorick": 8,
+        "Kalista": 7,
+        "Thresh": 6
+      },
+      "bisItems": ["bt", "titans", "qss"],
+      "bisType": "ad",
+      "opener": "Îles Obscures + Quickstriker",
+      "hold": ["Viego", "Gwen", "Yorick", "Kalista"],
+      "slam": "BT + Titan sur Viego",
+      "objective": "Viego 3★ → Kindred @9",
+      "go": "Viego pairs + Îles Obscures",
+      "stop": "Pas de Viego = pivot",
+      "tips": {
+        "main": "Jouez n'importe quel Quickstriker jusqu'à obtenir Kindred. Ajoutez des Gardiens si votre première ligne est trop faible. Cette composition peut étonnamment bien utiliser la Poêle d'or avec l'emblème Conquérant/Quickstriker. En fin de partie, éliminez 5 Îles obscures pour obtenir des unités de plus grande valeur.",
+        "stage2": "Si votre situation financière est confortable, envisagez de tenter de débloquer le barde plus tôt. Cela peut paraître étrange au début, mais les ressources obtenues en vaudront la peine.",
+        "stage3": "Progressez lentement jusqu'à Viego 3 et concentrez-vous sur l'obtention de son équipement optimal. Une fois cet objectif atteint, montez de niveau et ajoutez d'autres Îles obscures/Gardiens.",
+        "stage4": "Préparez des objets pour Thresh en duo. Kalista peut garder les objets AD restants pour les lanceurs de sorts. Équipez-vous de Gardiens apparentés ou de Mel Noxus."
+      }
+    },
+    {
+      "id": "malevore",
+      "name": "JE SUIS MALÉVORE !",
+      "diff": "easy",
+      "tag": "Situationnel",
+      "carry": "Veigar",
+      "items": {
+        "dcap": 15,
+        "shojin": 12,
+        "bluebuff": 10,
+        "jg": 8,
+        "archangel": 6
+      },
+      "units": {
+        "Rumble": 5,
+        "Lulu": 6,
+        "Teemo": 8,
+        "Tristana": 4
+      },
+      "bisItems": ["dcap", "shojin", "bluebuff"],
+      "bisType": "ap",
+      "opener": "Yordles only",
+      "hold": ["Rumble", "Lulu", "Teemo", "Tristana"],
+      "slam": "Coiffe + Shojin sur Veigar",
+      "objective": "Veigar 3★ via Yordle 6/8",
+      "go": "Yordles ouverture + accès cannes",
+      "stop": "Pas Yordles / pas cannes",
+      "tips": {
+        "main": "Ne jouez que si vous avez des Yordles en ouverture et un accès facile à plusieurs cannes. Ne relancez pas pour obtenir des Yordles 3★. Utilisez les ressources gratuites des Yordles 6 et 8 étoiles pour atteindre le plateau de jeu maximal.",
+        "stage2": "Collectionnez tous les Yordles et concentrez-vous sur votre économie. Débloquez Poppy au plus vite pour garantir 4 Yordles en 2-3. Récupérez toutes les cannes à pêche possibles pour débloquer Veigar.",
+        "stage3": "Obtenez 6 Yordles au plus vite pour commencer à accumuler des relances gratuites. Si vous êtes très riche, vous pouvez monter jusqu'au niveau 8 pour obtenir 8 Yordles et des sacs surprises gratuits.",
+        "stage4": "Débloquez Veigar et utilisez les relances gratuites de la boutique pour obtenir des améliorations tout en gagnant des niveaux. Une fois au niveau 9, restez avec 6 Yordles pour des relances à 2★ coûtant 5."
+      }
+    },
+    {
+      "id": "tempete-implacable",
+      "name": "TEMPÊTE IMPLACABLE",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Lissandra",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "warmog": 6,
+        "morello": 5
+      },
+      "units": {
+        "Neeko": 8,
+        "Anivia": 8,
+        "Jarvan IV": 4,
+        "Sona": 5
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Invokers / Ionia",
+      "hold": ["Neeko", "Anivia", "Jarvan IV", "Sona"],
+      "slam": "Shojin + Gantelet → Lissandra",
+      "objective": "Lissandra @8 → Voli @9",
+      "go": "Items AP + Warmog + Neeko",
+      "stop": "Pas de Warmog",
+      "tips": {
+        "main": "Privilégiez les objets/ceintures offrant beaucoup de points de vie pour débloquer Volibear. Visez à débloquer Kennen et Kobuko avec des unités peu coûteuses. Ne vous précipitez pas sur le positionnement des tours de Freljord pour éviter les attaques de zone ennemies.",
+        "stage2": "Privilégiez les Invokers en début de partie ou les unités puissantes avec objets AP comme Ahri. Si vous équipez Anivia, assurez-vous de jouer des unités qui appliquent l'effet Glace (ex: Neeko).",
+        "stage3": "Ajoutez des Défenseurs/Ionia/Yordles bon marché pour commencer à débloquer Kennen. Gardez des Brutes/Invocateurs sur le banc pendant 3 à 7 tours pour débloquer Kobuko au tour 7.",
+        "stage4": "Atteignez le niveau 8 et tirez les dés pour obtenir Lissandra et Wukong. Passez au niveau 9 pour obtenir Volibear et Ryze, puis échangez les objets de Lissandra avec ceux de Ryze."
+      }
+    },
+    {
+      "id": "shurima-seraphine",
+      "name": "SHURIMA SÉRAPHINE",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Séraphine",
+      "items": {
+        "jg": 15,
+        "shojin": 12,
+        "nashors": 10,
+        "void": 8,
+        "morello": 6
+      },
+      "units": {
+        "Lulu": 7,
+        "Rumble": 6,
+        "Teemo": 5,
+        "Poppy": 4
+      },
+      "bisItems": ["jg", "shojin", "nashors"],
+      "bisType": "ap",
+      "opener": "Yordles éco",
+      "hold": ["Lulu", "Rumble", "Teemo", "Poppy"],
+      "slam": "Gantelet + Shojin → Séraphine",
+      "objective": "Séraphine @8 → Xerath @9",
+      "go": "Items AP + éco",
+      "stop": "Pas éco / contesté",
+      "tips": {
+        "main": "Séraphine sera un pilier de la plupart de vos parties, mais votre victoire reposera sur des unités Shurima équipées. Xerath est le premier personnage à débloquer. Les unités Targon polyvalentes comme Taric, Leona et Diana peuvent servir de porteurs d'objets temporaires pour Nasus et Swain.",
+        "stage2": "Jouez un générateur de ressources économiques dès le début, car cette composition peut coûter cher. Privilégiez les objets AP pour enchaîner les victoires.",
+        "stage3": "Cherchez des moyens de trouver Leona 2 et débloquez Diana au plus vite. Utilisez le niveau 8 si nécessaire pour vous stabiliser si vous subissez trop de dégâts.",
+        "stage4": "Stabilisez-vous au niveau 8 avec Séraphine 2 avant de passer au niveau 9. En fin de partie, passez à Shurima Xerath et transférez les objets si nécessaire."
+      }
+    },
+    {
+      "id": "zaun-seraphine",
+      "name": "ZAUN SÉRAPHINE",
+      "diff": "medium",
+      "tag": "Lose Streak",
+      "carry": "Séraphine",
+      "items": {
+        "jg": 15,
+        "shojin": 12,
+        "nashors": 10,
+        "warmog": 8,
+        "gargoyle": 6
+      },
+      "units": {
+        "Cho'Gath": 7,
+        "Neeko": 6,
+        "Blitzcrank": 5,
+        "Kog'Maw": 4
+      },
+      "bisItems": ["jg", "shojin", "nashors"],
+      "bisType": "ap",
+      "opener": "LOSE STREAK",
+      "hold": ["Cho'Gath", "Neeko", "Blitzcrank", "Kog'Maw"],
+      "slam": "HOLD pour Singed",
+      "objective": "Singed @65 PV → Séra",
+      "go": "Lose streak + 65 PV",
+      "stop": "Win streak / PV bas",
+      "tips": {
+        "main": "En cas de défaite, vous pouvez obtenir les composants nécessaires et atteindre le seuil de 65 points de vie requis pour débloquer Singed. Si vous avez les moyens, privilégiez Malzahar 3 à Séraphine.",
+        "stage2": "Perdez votre série rapidement tout en cherchant des moyens de gagner de l'argent supplémentaire : Ionia, Ixtal, Bilgewater, etc. Privilégiez les objets Séraphine/Singed.",
+        "stage3": "Collectionnez 4 unités Zaun/Juggernaut. Vous pouvez débloquer Singed à n'importe quel niveau, alors déployez-les une fois que vous aurez atteint 65 PV.",
+        "stage4": "Montez au niveau 8 et tentez d'obtenir Singed 2 et Séraphine. Vous pouvez ajouter des Juggernauts, Zaun, des Disruptors ou d'autres unités de première ligne selon les besoins. Atteignez le niveau 9 pour maximiser Ziggs."
+      }
+    },
+    {
+      "id": "void-kaisa",
+      "name": "VOID KAI'SA",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Kai'Sa",
+      "items": {
+        "guinsoo": 15,
+        "jg": 12,
+        "statikk": 10,
+        "void": 8,
+        "titans": 6
+      },
+      "units": {
+        "Kog'Maw": 9,
+        "Cho'Gath": 7,
+        "Briar": 4,
+        "Neeko": 4
+      },
+      "bisItems": ["guinsoo", "jg", "statikk"],
+      "bisType": "ad",
+      "opener": "Vide tempo",
+      "hold": ["Kog'Maw", "Cho'Gath", "Briar", "Neeko"],
+      "slam": "Guinsoo sur Kog → Kai'Sa",
+      "objective": "Kai'Sa @8",
+      "go": "Vide + Guinsoo + WIN",
+      "stop": "Pas mutation",
+      "tips": {
+        "main": "Jouez ce build lorsque vous avez une ouverture avec le Vide, mais que vous ne pourrez probablement pas atteindre le niveau 10 pour le Baron. La meilleure mutation du Vide est l'Épine fendue. Kai'Sa AP ou AD complet (Shojin + IE + Dernier souffle). Si vous enchaînez les victoires, conservez les Vides pour débloquer le Baron.",
+        "stage2": "Jouez avec Kog'Maw en début de partie pour enchaîner les victoires. Ajoutez des combattants pour gagner du temps et permettre à Rageblade de monter en puissance.",
+        "stage3": "Débloquez le Héraut de la Faille et changez immédiatement d'objets avec 4 pièces du Néant (idéalement Coiffe de Fer > Carapace Royale). Économisez pour un Fast 8.",
+        "stage4": "Recherchez Kaisa 2 et un tank 2★ à 4 de coût : Héraut de la Faille 2 > Taric 2 > Swain 2. Au niveau 9, vous pouvez remplacer Briar et Sion par des unités de meilleure qualité."
+      }
+    },
+    {
+      "id": "freljord-yunara",
+      "name": "FRELJORD YUNARA",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Yunara",
+      "items": {
+        "guinsoo": 15,
+        "ie": 12,
+        "runaan": 10,
+        "hoj": 8,
+        "titans": 5
+      },
+      "units": {
+        "Illaoi": 8,
+        "Shen": 8,
+        "Jhin": 9,
+        "Xin Zhao": 6
+      },
+      "bisItems": ["guinsoo", "ie", "runaan"],
+      "bisType": "ad",
+      "opener": "Ionia dorée",
+      "hold": ["Illaoi", "Shen", "Jhin", "Xin Zhao"],
+      "slam": "Guinsoo sur Jhin → Yunara",
+      "objective": "Yunara @8 → Ryze @9",
+      "go": "Ionia dorée + front",
+      "stop": "Freljord contesté",
+      "tips": {
+        "main": "Ce plateau vise à se stabiliser au niveau 8, mais il vous faut atteindre le niveau 9 pour Ryze. Taric 2 peut aussi encaisser les coups de Wukong 2 si nécessaire. Si votre positionnement est pénalisé, ne prenez pas trop de risques avec la tour de Freljord. Si le groupe de Freljord est trop contesté, envisagez de jouer autour d'Ionia/Sett.",
+        "stage2": "Idéalement, vous avez amélioré Ionia pour obtenir de l'or ou de l'EXP. Utilisez des objets et visez les victoires. Jouez avec des Yordles ou des Défenseurs améliorés pour affronter Kennen.",
+        "stage3": "Si vous jouez Ionia, ajoutez davantage d'unités d'Ionia ou intégrez des traits pertinents (Demacia, Yordle, Brutes). En cas de doute, ajoutez plus d'unités de première ligne.",
+        "stage4": "Passez rapidement au niveau 8 et recrutez Yunara et votre première ligne. Améliorez le tank 2★ que vous obtenez en premier (Wukong 2 > Taric 2). Gardez les points de puissance restants pour Lissandra. Une fois votre équipe stabilisée, passez au niveau 9 pour Ryze."
+      }
+    },
+    {
+      "id": "invocateurs-freljord",
+      "name": "INVOCATEURS FRELJORD",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Lissandra",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "ionic": 6,
+        "morello": 5
+      },
+      "units": {
+        "Jarvan IV": 5,
+        "Sona": 6,
+        "Anivia": 9,
+        "Neeko": 6
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Invokers",
+      "hold": ["Jarvan IV", "Sona", "Anivia", "Neeko"],
+      "slam": "Shojin + Gantelet",
+      "objective": "4 Invoker @8 → Lissa",
+      "go": "Anivia + items AP",
+      "stop": "Pas de Glace",
+      "tips": {
+        "main": "Positionnez Lissandra pour étourdir leurs précieuses unités de première ligne. Zilean peut éliminer les super tanks à coup sûr si nécessaire. En fin de partie, ne soyez pas trop gourmand avec le positionnement des tours de Freljord.",
+        "stage2": "Vous pouvez aussi jouer Ixtal si vous obtenez Milio rapidement. Si vous équipez Anivia, assurez-vous de jouer des unités qui appliquent l'effet Glace (ex: Neeko).",
+        "stage3": "Ajoutez des Défenseurs bon marché pour commencer à débloquer Kennen. Évitez d'avoir 4 Invokers ici sauf si vous débloquez Kobuko rapidement, car vous avez besoin d'une ligne de front.",
+        "stage4": "Atteignez le niveau 8 et tirez les dés pour obtenir Lissandra et Braum. Vous avez 2 emplacements flexibles ; expérimentez avec Ionia, Gardiens, Targons, Skarner, etc."
+      }
+    },
+    {
+      "id": "freljord-shurima",
+      "name": "FRELJORD SHURIMA",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Volibear",
+      "items": {
+        "bt": 15,
+        "sterak": 12,
+        "titans": 10,
+        "warmog": 8,
+        "gargoyle": 6
+      },
+      "units": {
+        "Briar": 7,
+        "Shen": 6,
+        "Sion": 8,
+        "LeBlanc": 5
+      },
+      "bisItems": ["bt", "sterak", "titans"],
+      "bisType": "ad",
+      "opener": "Bruisers",
+      "hold": ["Briar", "Shen", "Sion", "LeBlanc"],
+      "slam": "Soif-de-sang (Voli unlock)",
+      "objective": "Kobuko → Volibear",
+      "go": "Sion + Soif-de-sang",
+      "stop": "Pas PV pour Voli",
+      "tips": {
+        "main": "Jouez avec Sion en ouverture pour débloquer Volibear et un bon porteur d'objets comme Leblanc. Vous pouvez obtenir beaucoup de carrys au niveau 8, donc les améliorations d'objets sont primordiales.",
+        "stage2": "Vous pouvez aussi jouer Ixtal si vous obtenez Milio rapidement. Mais Sion est idéal pour avoir assez de PV pour Voli. Sinon, visez Warmog pour le déblocage ultérieur.",
+        "stage3": "Ajoutez des Invokers, des Bruisers ou des unités Targon supplémentaires comme Zoe ou Leona. Économisez pour le tirage de niveau 8. Améliorez votre équipement si vous n'avez pas d'objets clés.",
+        "stage4": "Atteignez le niveau 8 et tentez d'obtenir Lissandra et Braum. Si vous ne trouvez pas Azir, n'hésitez pas à tester différents personnages : Gardiens, Targon, Skarner, etc."
+      }
+    },
+    {
+      "id": "casquette-longshot",
+      "name": "CASQUETTE LONGSHOT",
+      "diff": "medium",
+      "tag": "Fast 8",
+      "carry": "Kai'Sa",
+      "items": {
+        "guinsoo": 15,
+        "jg": 12,
+        "statikk": 10,
+        "ie": 8,
+        "void": 5
+      },
+      "units": {
+        "Vayne": 9,
+        "Jarvan IV": 6,
+        "Lulu": 4,
+        "Poppy": 4
+      },
+      "bisItems": ["guinsoo", "jg", "statikk"],
+      "bisType": "ad",
+      "opener": "Demacia + Yordles",
+      "hold": ["Vayne", "Jarvan IV", "Lulu", "Poppy"],
+      "slam": "Items AP/AD flex",
+      "objective": "Kai'Sa + Galio @8",
+      "go": "Vayne + items flex",
+      "stop": "Pas items Vayne/Kai'Sa",
+      "tips": {
+        "main": "Version alternative de Demacia, réduite à 5 joueurs pour les tirs à longue distance. À jouer avec des objets pour Vayne et Kaisa (AD ou AP).",
+        "stage2": "Pour enchaîner les victoires, privilégiez Vayne et une Demacia améliorée rapidement. Les unités du Néant ou les Yordles forment une combinaison efficace avec Demacia en début de partie.",
+        "stage3": "Ajoutez plus de Demaciens au fur et à mesure de votre progression. Concentrez-vous sur la première ligne pour laisser plus de temps à Vayne Lame enragée pour monter en puissance.",
+        "stage4": "Atteignez le niveau 8 dans le niveau 4-2 sans faire de reroll ; on en fera après avoir débloqué Kaisa. Dans le niveau 4-3, faites des rerolls pour obtenir 2 étoiles et cherchez Galio."
+      }
+    },
+    {
+      "id": "blood-brothers",
+      "name": "BLOOD BROTHERS",
+      "diff": "medium",
+      "tag": "Reroll 2-cost",
+      "carry": "Yasuo",
+      "items": {
+        "ie": 15,
+        "hoj": 12,
+        "nightmantle": 10,
+        "bt": 8,
+        "titans": 6
+      },
+      "units": {
+        "Briar": 7,
+        "Jhin": 6,
+        "Shen": 8,
+        "Yasuo": 12
+      },
+      "bisItems": ["ie", "hoj", "nightmantle"],
+      "bisType": "ad",
+      "opener": "Ionia",
+      "hold": ["Briar", "Jhin", "Shen", "Yasuo"],
+      "slam": "IE + Main de la justice sur Yasuo",
+      "objective": "Yasuo 3★ → Yone + Kindred",
+      "go": "Yasuo + Shen + items AD",
+      "stop": "Yasuo contesté",
+      "tips": null
+    },
+    {
+      "id": "riggs",
+      "name": "RIGGS (Ryze Ziggs)",
+      "diff": "hard",
+      "tag": "Greedy 9",
+      "carry": "Ziggs",
+      "items": {
+        "guinsoo": 15,
+        "jg": 12,
+        "void": 10,
+        "shojin": 8,
+        "dcap": 6
+      },
+      "units": {
+        "Kennen": 10,
+        "Lulu": 8,
+        "Rumble": 6,
+        "Teemo": 5
+      },
+      "bisItems": ["guinsoo", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Yordles éco extrême",
+      "hold": ["Kennen", "Lulu", "Rumble", "Teemo"],
+      "slam": "Guinsoo + Gantelet → Ziggs",
+      "objective": "Sett @8 → Ryze+Ziggs @9",
+      "go": "Yordles + winstreak",
+      "stop": "Lose / pas Yordles",
+      "tips": {
+        "main": "Idéalement, jouez dès le début de votre série de victoires Yordle pour accumuler des ressources. N'attendez pas d'avoir 1 point de vie pour lancer les dés. L'économie est importante, mais les améliorations d'objets sont utiles pour avoir Ryze, Sett et Ziggs équipés.",
+        "stage2": "Privilégiez une ouverture permettant d'enchaîner les victoires et de générer des ressources : Yordle, Ionia, Bilgewater ou Ixtal. Débloquez Kennen au plus vite.",
+        "stage3": "Si vous jouez les Yordles, recrutez rapidement 8 Yordles pour obtenir des sacs surprises. Débloquez Sett en solo en première ligne.",
+        "stage4": "Atteignez le niveau 9 et débloquez Ryze et Ziggs. Ionia est le trait principal à conserver pour les dégâts de zone de Ryze."
+      }
+    },
+    {
+      "id": "tempo-bilgewater",
+      "name": "TEMPO BILGEWATER",
+      "diff": "hard",
+      "tag": "All-in",
+      "carry": "Ryze",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "bluebuff": 6
+      },
+      "units": {
+        "Twisted Fate": 12,
+        "Illaoi": 6,
+        "Shen": 5,
+        "Graves": 7
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Bilgewater winstreak",
+      "hold": ["Twisted Fate", "Illaoi", "Shen", "Graves"],
+      "slam": "Shojin + Gantelet sur TF",
+      "objective": "MF 2 @8 → Ryze @9",
+      "go": "TF + AP + WIN 2-1",
+      "stop": "Lose early = ABANDON",
+      "tips": {
+        "main": "Jouez uniquement avec une série de victoires en début de partie. Foncez sur le niveau 7 de Bilgewater pour accumuler des Serpents, puis réduisez le niveau à 5 ou 3 en fin de partie. Ne soyez pas trop gourmand en objets de Bilgewater. Utilisez TF comme principal porteur d'objets.",
+        "stage2": "Foncez et enchaînez les victoires avec Bilgewater. Débloquez Graves en terminant 2-1. Les objets de première ligne sont très efficaces sur Illaoi 2.",
+        "stage3": "Visez les victoires et dominez le lobby. Obtenez 5 Bilgewater en ligne pour plus de Serpents d'argent.",
+        "stage4": "Lancez les dés au niveau 8 pour obtenir Miss Fortune et jouez 7 Bilgewater. Dès que vous commencez à perdre, passez à des unités de coût 4/5."
+      }
+    },
+    {
+      "id": "complices-criminels",
+      "name": "COMPLICES CRIMINELS",
+      "diff": "hard",
+      "tag": "Reroll 2-cost",
+      "carry": "Graves",
+      "items": {
+        "qss": 15,
+        "ie": 12,
+        "gs": 10,
+        "bt": 8,
+        "guinsoo": 6
+      },
+      "units": {
+        "Twisted Fate": 8,
+        "Graves": 12,
+        "Illaoi": 6,
+        "Shen": 5
+      },
+      "bisItems": ["qss", "ie", "gs"],
+      "bisType": "ad",
+      "opener": "Bilgewater",
+      "hold": ["Twisted Fate", "Graves", "Illaoi", "Shen"],
+      "slam": "Mercure + IE sur Graves",
+      "objective": "Graves 3★ → MF 2",
+      "go": "TF + Graves + AD",
+      "stop": "Pas Graves / lose",
+      "tips": {
+        "main": "Priorisez les achats de QS sur Graves et les objets AD. Débloquez Graves dès que possible en améliorant votre équipement TF. Dépensez vos Silver Serpents en priorité pour améliorer vos statistiques et obtenir Graves.",
+        "stage2": "Visez la victoire avec Bilgewater. Optimisez Twisted Fate dès le premier niveau en JcE pour garantir la victoire contre Graves avant la fin du round 2-1.",
+        "stage3": "Obtenez 5 Bilgewater en ligne pour plus de Serpents d'argent. Dépensez vos Serpents pour des objets à 2 coûts ou des stats. Terminez les objets de Graves.",
+        "stage4": "Montez au niveau 7 de Bilgewater et lancez les dés au niveau 8 pour obtenir Miss Fortune 2. Terminez Graves 3★ via les Serpents."
+      }
+    },
+    {
+      "id": "yunara-95",
+      "name": "YUNARA 9/5",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Yunara",
+      "items": {
+        "guinsoo": 15,
+        "ie": 12,
+        "runaan": 10,
+        "hoj": 8,
+        "bt": 6
+      },
+      "units": {
+        "Illaoi": 7,
+        "Shen": 7,
+        "Jhin": 8,
+        "Xin Zhao": 5
+      },
+      "bisItems": ["guinsoo", "ie", "runaan"],
+      "bisType": "ad",
+      "opener": "Ionia dorée",
+      "hold": ["Illaoi", "Shen", "Jhin", "Xin Zhao"],
+      "slam": "Guinsoo + IE",
+      "objective": "Yunara @8 → 9/5 @9",
+      "go": "Ionia dorée + AD + winstreak",
+      "stop": "Lose / pas Ionia",
+      "tips": {
+        "main": "Idéalement joué avec Ionia en or ou en expérience. Vous pouvez réduire à 3 Ionia + une bonne ligne de front. Fiddlesticks et Taric sont des choix flexibles. Priorisez les objets de Yunara > Tank > Sett. Yunara n'a besoin que de la Lame enragée et de l'IE, le 3e objet est flexible : Kraken > Titan > Fléau du frappeur.",
+        "stage2": "Idéalement, vous avez amélioré Ionia pour obtenir de l'or ou de l'EXP. Utilisez des objets et visez les victoires. Jouez avec des Yordles ou des Défenseurs améliorés pour affronter Kennen.",
+        "stage3": "Si vous jouez Ionia, ajoutez davantage d'unités d'Ionia ou intégrez des traits pertinents (Demacia, Yordle, Brutes). En cas de doute, ajoutez plus d'unités de première ligne.",
+        "stage4": "Cherchez Yunara et Wukong au niveau 8. N'oubliez pas de débloquer Sett au niveau 4. Une fois stabilisé, passez à 9 pour 5. Soyez flexible et optimisez votre équipement."
+      }
+    },
+    {
+      "id": "barde-ixtal",
+      "name": "BARDE D'IXTAL",
+      "diff": "hard",
+      "tag": "Reroll 2-cost",
+      "carry": "Bard",
+      "items": {
+        "jg": 15,
+        "shojin": 12,
+        "archangel": 10,
+        "warmog": 7,
+        "bluebuff": 6
+      },
+      "units": {
+        "Qiyana": 9,
+        "Neeko": 7,
+        "Bard": 11,
+        "Milio": 6
+      },
+      "bisItems": ["jg", "shojin", "archangel"],
+      "bisType": "ap",
+      "opener": "Ixtal + Barde",
+      "hold": ["Qiyana", "Neeko", "Bard", "Milio"],
+      "slam": "Gantelet + Shojin Barde",
+      "objective": "Barde 3★",
+      "go": "Qiyana + Barde",
+      "stop": "Barde contesté",
+      "tips": {
+        "main": "Le barde se débloque en lançant 4 fois les dés avant le carrousel de l'étape 2. Évitez les quêtes trop difficiles, car vous risquez d'être bloqué. En fin de partie, passez d'une quête à 5 Ixtal à une quête à 5 points de coût.",
+        "stage2": "Lancez les dés 4 fois avant le carrousel de l'étape 2. Il est généralement préférable de le faire 2 ou 3 fois afin de constituer votre premier stock d'or. Privilégiez les objets de barde.",
+        "stage3": "Si votre Bard est contesté, envisagez un autre carry comme Orianna 3 ou même Milio 3. Si vous sentez que vous avez besoin de ressources, échangez Ixtal contre des ressources.",
+        "stage4": "Terminez vos unités 3★ et progressez. Avoir 5 Ixtal est acceptable pour terminer les quêtes, mais essayez d'utiliser des unités plus performantes. Vous pouvez gagner sans Brock, mais Brock 2 est très puissant."
+      }
+    },
+    {
+      "id": "debloquez-brock",
+      "name": "DÉBLOQUEZ BROCK",
+      "diff": "hard",
+      "tag": "Lose → Quêtes",
+      "carry": "Brock",
+      "items": {
+        "bt": 15,
+        "ie": 12,
+        "sterak": 10,
+        "gargoyle": 8,
+        "warmog": 6
+      },
+      "units": {
+        "Briar": 8,
+        "Qiyana": 6,
+        "Neeko": 6,
+        "Milio": 5
+      },
+      "bisItems": ["bt", "ie", "sterak"],
+      "bisType": "ad",
+      "opener": "Ixtal lose streak",
+      "hold": ["Briar", "Qiyana", "Neeko", "Milio"],
+      "slam": "Soif-de-sang + IE",
+      "objective": "Brock @8",
+      "go": "Ixtal + lose + quêtes",
+      "stop": "Quêtes difficiles",
+      "tips": {
+        "main": "Idéalement, visez les 550 pièces d'or à retirer, mais acceptez les quêtes précédentes si votre survie en dépend. Souvent, les quêtes simples et faciles à accomplir sont plus avantageuses que les quêtes de série. Double Brock est une bonne option pour stabiliser.",
+        "stage2": "Ixtal est plus efficace lorsqu'on enchaîne les victoires autour de Qiyana 2 / Briar 2 avec un bon équipement, mais les séries de défaites sont fréquentes. Pensez à conserver votre gilet et votre cape pour l'armure de plaques.",
+        "stage3": "Si vous enchaînez les défaites, continuez à terminer les quêtes et à accumuler des points. Si vous n'êtes pas obligé de perdre, jouez pour gagner avec Milio, Neeko et Qiyana bien équipés.",
+        "stage4": "Débloquez Brock et lancez une partie à 8 pour obtenir 4 Invoker et 3 Freljord. Il n'est pas nécessaire de garder 3 Ixtal, mais réalisez des gains réguliers. Passez à 9 pour 5 points de coût."
+      }
+    },
+    {
+      "id": "kindred-noxus",
+      "name": "KINDRED NOXUS",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Kindred",
+      "items": {
+        "guinsoo": 15,
+        "runaan": 12,
+        "ie": 10,
+        "bt": 8,
+        "gs": 6
+      },
+      "units": {
+        "Illaoi": 6,
+        "Bard": 7,
+        "Draven": 12,
+        "Twisted Fate": 5
+      },
+      "bisItems": ["guinsoo", "runaan", "ie"],
+      "bisType": "ad",
+      "opener": "AD + Barde",
+      "hold": ["Illaoi", "Bard", "Draven", "Twisted Fate"],
+      "slam": "Guinsoo + Kraken sur Draven",
+      "objective": "Lucian+Kindred @9",
+      "go": "Draven + Barde + AD",
+      "stop": "Pas Draven",
+      "tips": {
+        "main": "Utilisez Draven comme porteur d'objets jusqu'à l'obtention de Kindred. Les emplacements Skarner et Taric sont flexibles. En cas de série de défaites, prenez Barde niveau 2 pour des relances. Vous pouvez jouer Gardiens, Volibear + Cogneur, ou Azir + Shurima.",
+        "stage2": "Utilisez l'amélioration Économie + Barde pour optimiser vos relances. Lorsque vous choisissez Barde, privilégiez un trait Économie comme Bilgewater, Ixtal ou Ionia dorée.",
+        "stage3": "En cas de victoires, progressez. En défaites, tentez Draven 2 et Bilgewater au niveau 7. Atteignez le niveau 8 et stabilisez autour de tanks à 4 de coût. Jouez Yunara jusqu'à Kindred.",
+        "stage4": "Atteignez le niveau 9 et cherchez Lucian et Kindred. Évitez une première ligne entièrement 1★, car vous avez besoin de temporiser pour la montée en puissance de Kindred."
+      }
+    },
+    {
+      "id": "kindred-senna",
+      "name": "KINDRED SENNA",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Kindred",
+      "items": {
+        "guinsoo": 15,
+        "runaan": 12,
+        "ie": 10,
+        "dclaw": 8,
+        "gargoyle": 6
+      },
+      "units": {
+        "Illaoi": 7,
+        "Shen": 7,
+        "Jhin": 6,
+        "Xin Zhao": 5
+      },
+      "bisItems": ["guinsoo", "runaan", "ie"],
+      "bisType": "ad",
+      "opener": "Défenseurs",
+      "hold": ["Illaoi", "Shen", "Jhin", "Xin Zhao"],
+      "slam": "Guinsoo + Kraken",
+      "objective": "Kindred @9",
+      "go": "Items AD + front",
+      "stop": "Pas MR / lose",
+      "tips": {
+        "main": "Le plateau est vraiment flexible en dehors de Senna, Freljord et Kindred. On peut remplacer Piltover/Sejuani par Volibear + Bruiser, Liss + Zilean ou Azir + Shurima. Le talent Tireur d'élite n'est pas indispensable pour Senna.",
+        "stage2": "Idéalement, privilégiez une ouverture avec enchaînement de victoires et génération de ressources : Ionia, Bilgewater, Bard ou Ixtal. Priorisez l'obtention d'objets de défense abyssale pour Senna.",
+        "stage3": "N'hésitez pas à investir quelques ressources au niveau 8 pour stabiliser. Si les pertes sont trop importantes, retardez le niveau 9 et cherchez des personnages temporaires comme Yunara, Jinx et MF.",
+        "stage4": "Atteignez le niveau 9 et recrutez Lucian et Kindred. Améliorez l'unité de première ligne que vous avez choisie. Évitez de trop privilégier le positionnement de Freljord."
+      }
+    },
+    {
+      "id": "bilgewater-tf",
+      "name": "BILGEWATER TF",
+      "diff": "hard",
+      "tag": "All-in",
+      "carry": "Ryze",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "morello": 6
+      },
+      "units": {
+        "Illaoi": 5,
+        "Shen": 5,
+        "Graves": 6,
+        "Twisted Fate": 11
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Bilgewater + front",
+      "hold": ["Illaoi", "Shen", "Graves", "Twisted Fate"],
+      "slam": "Shojin + Gantelet sur TF",
+      "objective": "Tahm @7 → Ryze @9",
+      "go": "TF + AP + winstreak",
+      "stop": "Lose = mort",
+      "tips": {
+        "main": "Il est impératif de jouer depuis la position Bilgewater après une série de victoires, avec un équipement AP complet sur Twisted Fate. Illaoi 3 est un tank viable. Activez 7 Bilgewater pour obtenir des Explosifs du Marché Noir sur Ryze.",
+        "stage2": "Commencez par une série de victoires avec Bilgewater et enchaînez les attaques agressives sur Twisted Fate. Utilisez la Boutique du Serpent pour des améliorations ou des stats à bas prix.",
+        "stage3": "Terminez les niveaux 5 et 7 de Bilgewater au plus vite pour obtenir les Boutiques Serpent et débloquer Tahm Kench. Débloquez Kobuko en mode JcE avec des Brutes et des Yordles bon marché.",
+        "stage4": "Atteignez le niveau 9 et débloquez Ryze. Gardez Bilgewaters en réserve si vous avez besoin de recruter des unités ou des objets. Utilisez les objets AP restants sur Lissandra > Fizz."
+      }
+    },
+    {
+      "id": "gp-slayer",
+      "name": "GP SLAYER",
+      "diff": "hard",
+      "tag": "Reroll 3-cost",
+      "carry": "Gangplank",
+      "items": {
+        "hoj": 15,
+        "sterak": 12,
+        "qss": 10,
+        "bt": 8,
+        "titans": 5
+      },
+      "units": {
+        "Gangplank": 12,
+        "Twisted Fate": 8,
+        "Kog'Maw": 5,
+        "Graves": 6
+      },
+      "bisItems": ["hoj", "sterak", "qss"],
+      "bisType": "ad",
+      "opener": "Bilgewater + Void",
+      "hold": ["Gangplank", "Twisted Fate", "Kog'Maw", "Graves"],
+      "slam": "Main de la justice sur GP",
+      "objective": "GP 3★",
+      "go": "TF + Bilge + Void",
+      "stop": "Roll pas pour GP",
+      "tips": {
+        "main": "Ne relancez surtout pas les dés pour Gangplank. Utilisez plutôt les Boutiques de Bilgewater pour l'obtenir 3★. Le Héraut de la Faille est un tank idéal, mais vous pouvez le remplacer par d'autres personnages de première ligne (Nautilus 3★, Taric, Swain). Vous pouvez utiliser Swain, Ambessa et Noxus jusqu'à 5 pièces d'or.",
+        "stage2": "Visez la victoire avec Bilgewater. Équipez-vous de Twisted Fate dès le premier niveau PvE pour garantir la victoire contre Graves avant le round 2-1. La combinaison idéale est 3 Bilgewater + Void.",
+        "stage3": "Obtenez 5 Bilgewater en ligne pour plus de Serpents d'argent. Mais veillez à n'en garder que 3 pour augmenter vos chances d'obtenir des GP et des doublons.",
+        "stage4": "Montez de niveau et utilisez la boutique du Serpent d'argent pour obtenir des unités 3★. Au niveau 8, recrutez Belveth et votre tank principal. Limitez-vous à 5 points de coût."
+      }
+    },
+    {
+      "id": "freres-sang",
+      "name": "FRÈRES DE SANG",
+      "diff": "hard",
+      "tag": "Fast 8",
+      "carry": "Lucian et Senna",
+      "items": {
+        "ie": 15,
+        "shojin": 12,
+        "guinsoo": 10,
+        "bt": 8,
+        "hoj": 5
+      },
+      "units": {
+        "Draven": 10,
+        "Bard": 7,
+        "Illaoi": 5,
+        "Shen": 5
+      },
+      "bisItems": ["ie", "shojin", "guinsoo"],
+      "bisType": "ad",
+      "opener": "AD + Support",
+      "hold": ["Draven", "Bard", "Illaoi", "Shen"],
+      "slam": "IE + Shojin sur Draven",
+      "objective": "Lucian/Senna @8",
+      "go": "Draven + Barde + AD",
+      "stop": "Pas Draven early",
+      "tips": {
+        "main": "Jouez sur les Chemins de la Prospérité > Transcendance = Éclairé. Priorisez les objets de Yasuo > Utilité > Objets de Yone > Objets restants sur Yunara.",
+        "stage2": "Visez une série de victoires avec Yasuo et Ionia améliorée. Vous pouvez également opter pour une stratégie basée sur Briar ou Qiyana. Privilégiez les objets de Yasuo.",
+        "stage3": "Atteignez le niveau 6 et progressez jusqu'à ce que vous soyez stable avec Yasuo 2. Ensuite, économisez et progressez lentement pour obtenir Yasuo 3 avec 5 Ionia et Slayer.",
+        "stage4": "Montez de niveau pour obtenir plus d'Ionia ou de Tueurs. Atteignez le niveau 9 pour obtenir plus de monstres à 5 de coût comme Kindred et Aatrox."
+      }
+    },
+    {
+      "id": "gardiens-kalista",
+      "name": "GARDIENS KALISTA",
+      "diff": "hard",
+      "tag": "Fast 8",
+      "carry": "Kalista",
+      "items": {
+        "shojin": 15,
+        "lw": 12,
+        "scourge": 10,
+        "ie": 8,
+        "guinsoo": 5
+      },
+      "units": {
+        "Illaoi": 7,
+        "Shen": 7,
+        "Caitlyn": 5,
+        "Jhin": 6
+      },
+      "bisItems": ["shojin", "lw", "scourge"],
+      "bisType": "ad",
+      "opener": "Défenseurs + AD",
+      "hold": ["Illaoi", "Shen", "Caitlyn", "Jhin"],
+      "slam": "Shojin + Dernier souffle",
+      "objective": "Kalista 2 @8",
+      "go": "Front + items AD",
+      "stop": "Pas front",
+      "tips": {
+        "main": "Cette composition est optimale avec un Viego 2 en début de partie pour débloquer les Îles obscures et maximiser vos chances de victoire. En fin de partie, réduisez à 2 Îles obscures avec seulement Kalista et Thresh. Azir et Shurima forment un duo idéal en fin de partie.",
+        "stage2": "Jouez avec Viego 2 en utilisant des objets pour enchaîner les victoires. Équipez Yorick d'objets de première ligne. Vous pouvez ajouter Bilgewater ou Noxus pour des synergies.",
+        "stage3": "Utilisez les unités des Îles obscures débloquées au fur et à mesure. Viego devient moins performant, transférez donc les objets à d'autres unités améliorées.",
+        "stage4": "Montez au niveau 8 et cherchez Kalista 2 avec un carry 2★ perturbateur AP (Malzahar ou Séraphine). Ajoutez des Gardiens si nécessaire. Atteignez le niveau 9 pour 5 coûts."
+      }
+    },
+    {
+      "id": "ap-noxus",
+      "name": "AP NOXUS",
+      "diff": "hard",
+      "tag": "Fast 8",
+      "carry": "Annie",
+      "items": {
+        "shojin": 15,
+        "void": 12,
+        "shroud": 10,
+        "bluebuff": 8,
+        "jg": 6
+      },
+      "units": {
+        "Illaoi": 5,
+        "Shen": 5,
+        "Bard": 6,
+        "LeBlanc": 7
+      },
+      "bisItems": ["shojin", "void", "shroud"],
+      "bisType": "ap",
+      "opener": "Noxus + AP",
+      "hold": ["Illaoi", "Shen", "Bard", "LeBlanc"],
+      "slam": "Shojin + Bâton du vide",
+      "objective": "Annie @8 → Tibbers",
+      "go": "LeBlanc + items AP",
+      "stop": "Pas AP / lose",
+      "tips": {
+        "main": "Débloquez Leblanc au plus vite en améliorant Sion. Ne visez Leblanc 3★ que si vous êtes très riche ou bloqué au niveau 8. Vous jouerez Ambessa 2★ pendant un certain temps avant d'atteindre votre plateau optimal.",
+        "stage2": "Idéalement jouée après une ouverture solide avec Leblanc et Noxus. Si vous avez des objets AD et Draven, envisagez une composition d'ouverture différente.",
+        "stage3": "Montez au niveau 6 et jouez 5 Noxus dès que possible. Vous pouvez aussi jouer d'autres Bruisers pour débloquer Kobuko.",
+        "stage4": "Montez au niveau 8 et tentez d'obtenir Ambessa 2, Swain 2 et 7 Noxus. Mel prend les objets de mana/PA restants. Montez de niveau une fois stabilisé pour le niveau 9."
+      }
+    },
+    {
+      "id": "mel-flex",
+      "name": "MEL FLEX",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Mel",
+      "items": {
+        "shroud": 15,
+        "shojin": 12,
+        "jg": 10,
+        "void": 8,
+        "archangel": 6
+      },
+      "units": {
+        "Illaoi": 5,
+        "Shen": 6,
+        "Neeko": 7,
+        "Ahri": 5
+      },
+      "bisItems": ["shroud", "shojin", "jg"],
+      "bisType": "ap",
+      "opener": "Noxus + AP",
+      "hold": ["Illaoi", "Shen", "Neeko", "Ahri"],
+      "slam": "Casque adaptatif sur Mel",
+      "objective": "Mel @8 → Séraphine",
+      "go": "Neeko + items AP",
+      "stop": "Pas Casque adaptatif",
+      "tips": {
+        "main": "L'objet Adaptatif est de loin le meilleur pour Mel, car il multiplie le mana qu'elle draine. Elle peut également opter pour Azir + Shurima au lieu de Séraphine + Piltover. L'objet Radiant de Mel nécessite généralement 1,5 à 2 étapes.",
+        "stage2": "Pour enchaîner les victoires, privilégiez les objets AP en début de partie sur une unité puissante et améliorée. Ionia est un excellent choix pour générer des ressources.",
+        "stage3": "Il vous faudra beaucoup miser sur 8 parties pour vous stabiliser et rechercher Ambessa 2. Demandez à Séraphine de garder les objets de Mel pendant que vous attendez.",
+        "stage4": "Atteignez le niveau 9 et cherchez Mel 2 avec un duo carry. Shyvana est l'unité affichée, mais vous avez plusieurs options. Positionnez Mel directement en face des carrys ennemis."
+      }
+    },
+    {
+      "id": "ryze-bilgewater",
+      "name": "RYZE DE BILGEWATER",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Ryze",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "dcap": 6,
+        "morello": 5
+      },
+      "units": {
+        "Illaoi": 8,
+        "Shen": 7,
+        "Twisted Fate": 6,
+        "Graves": 5
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Bilgewater winstreak",
+      "hold": ["Illaoi", "Shen", "Twisted Fate", "Graves"],
+      "slam": "Shojin + Gantelet sur TF → Ryze",
+      "objective": "TF items → Ryze @9",
+      "go": "TF + AP + winstreak",
+      "stop": "Lose early = éviter",
+      "tips": {
+        "main": "Il est impératif de jouer depuis la position Bilgewater après une série de victoires, avec un équipement AP complet sur Twisted Fate. Illaoi 3 est un tank viable. Activez 7 Bilgewater pour obtenir des Explosifs du Marché Noir sur Ryze.",
+        "stage2": "Commencez par une série de victoires avec Bilgewater et enchaînez les attaques agressives sur Twisted Fate. Utilisez la Boutique du Serpent pour des améliorations ou des stats à bas prix.",
+        "stage3": "Terminez les niveaux 5 et 7 de Bilgewater au plus vite pour obtenir les Boutiques Serpent et débloquer Tahm Kench. Débloquez Kobuko en mode JcE avec des Brutes et des Yordles bon marché.",
+        "stage4": "Atteignez le niveau 9 et débloquez Ryze. Gardez Bilgewaters en réserve si vous avez besoin de recruter des unités ou des objets. Utilisez les objets AP restants sur Lissandra > Fizz."
+      }
+    },
+    {
+      "id": "shurima-ryze",
+      "name": "SHURIMA RYZE",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Ryze",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "dcap": 6
+      },
+      "units": {
+        "Lulu": 7,
+        "Rumble": 6,
+        "Poppy": 5,
+        "Teemo": 4
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Yordles éco",
+      "hold": ["Lulu", "Rumble", "Poppy", "Teemo"],
+      "slam": "Items éco → Shojin + Gantelet",
+      "objective": "Niveau 9 rapide → Ryze",
+      "go": "Yordles + éco augments",
+      "stop": "Pas éco / contesté",
+      "tips": {
+        "main": "Jouez avec des améliorations économiques jusqu'à un niveau 9 rapide et assurez-vous de débloquer Kennen et Kobuko. L'ouverture Yordle est la plus simple, mais vous pouvez opter pour une ouverture économique avec Ionia et Ahri. Jouez Targon avant de débloquer Ryze/Shurima. Utilisez les PA restants sur Azir ou Xerath.",
+        "stage2": "Commencez avec les Yordles ou Ionia (or/EXP) et équipez-vous d'objets de puissance. Atteignez le niveau 6 Yordles au plus vite pour obtenir des relances gratuites et remportez tous les combats possibles.",
+        "stage3": "Soit vous jouez avec 8 Yordles et vous farmez les sacs surprises. Si vous perdez trop de points, stabilisez-vous autour de Wukong, Ahri 2 et débloquez Sett avec Kobuko/Kennen.",
+        "stage4": "Atteignez le niveau 9 et débloquez Ryze. Cherchez Azir rapidement pour débloquer 2 Shurima, car c'est l'un des meilleurs traits pour Ryze."
+      }
+    },
+    {
+      "id": "arcaniste-yordle",
+      "name": "ARCANISTE YORDLE",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Zilean",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "void": 10,
+        "archangel": 8,
+        "bluebuff": 6
+      },
+      "units": {
+        "Lulu": 6,
+        "Rumble": 5,
+        "Poppy": 4,
+        "Teemo": 7
+      },
+      "bisItems": ["shojin", "jg", "void"],
+      "bisType": "ap",
+      "opener": "Yordles",
+      "hold": ["Lulu", "Rumble", "Poppy", "Teemo"],
+      "slam": "Shojin + Gantelet",
+      "objective": "Kennen @6 → Zilean + Annie @9",
+      "go": "Yordles + mana items",
+      "stop": "Pas Yordles early",
+      "tips": {
+        "main": "Jouez les Yordles rapidement pour débloquer Kennen au plus vite. Utilisez 6 tirages gratuits Yordle + 8 sacs de dialogue Yordle + des améliorations économiques pour atteindre rapidement le niveau 9. Les objets de mana sont prioritaires, car Annie ne peut pas lancer de sorts sans eux.",
+        "stage2": "Débloquez Poppy en équipant un Yordle de 2 objets, puis rassemblez 4 Yordles au plus vite pour commencer à les faire progresser et débloquer Kennen.",
+        "stage3": "Débloquez Kennen et atteignez le niveau 6 pour ajouter 6 Yordles, de la puissance sur Teemo et de l'attaque sur Tristana. Si vous ne trouvez pas 6 Yordles, jouez plutôt la composition la plus puissante.",
+        "stage4": "Jouez avec 8 Yordles au niveau 8 et essayez d'accumuler des ressources et de l'or pour le niveau 9. Les objets d'Annie sont prioritaires ; équipez Sett d'objets de mêlée avant Sylas."
+      }
+    },
+    {
+      "id": "arcaniste-shurima",
+      "name": "ARCANISTE SHURIMA",
+      "diff": "hard",
+      "tag": "Rapide 9",
+      "carry": "Xerath",
+      "items": {
+        "shojin": 15,
+        "jg": 12,
+        "archangel": 10,
+        "void": 8,
+        "dcap": 6
+      },
+      "units": {
+        "Lulu": 5,
+        "Rumble": 4,
+        "Poppy": 4,
+        "Teemo": 6
+      },
+      "bisItems": ["shojin", "jg", "archangel"],
+      "bisType": "ap",
+      "opener": "Yordles + Shurima",
+      "hold": ["Lulu", "Rumble", "Poppy", "Teemo"],
+      "slam": "Shojin + Gantelet",
+      "objective": "Xerath + Azir @9",
+      "go": "Yordles + items AP",
+      "stop": "Lose early",
+      "tips": {
+        "main": "Les rôles de Neeko et Swain sont flexibles. Vous pouvez jouer Nasus ou Taric en tank, ou poursuivre Sylas si nécessaire. Les PA restants sont souvent plus utiles sur Xerath si vous pouvez le débloquer. Équipez Renekton d'objets de Combattant ou de TG.",
+        "stage2": "Idéalement, privilégiez une ouverture permettant d'enchaîner les victoires et générant des ressources : Ionia, Bilgewater, Bard ou Ixtal. Priorisez l'achat d'objets de mana pour Annie plus tard.",
+        "stage3": "Soyez prêt à investir quelques ressources au niveau 8 pour stabiliser. Si les pertes sont trop importantes, retardez le niveau 9 et cherchez Séraphine, Liss ou des unités à 3 de coût.",
+        "stage4": "Atteignez le niveau 9 et cherchez Annie 2★ avec Azir et Shurima. Essayez de débloquer Xerath en premier, mais sans trop sacrifier de ressources. Améliorez vos unités à 5 pièces d'or."
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>TFT Assistant - Items & Comps</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-main">
+        <div>
+            <h1>TFT Challenger Assistant</h1>
+            <div class="subtitle">Sélectionne tes items → Trouve ta compo</div>
+        </div>
+        <div class="header-actions">
+            <button class="refresh-btn" id="refreshData">⟳ Refresh Data</button>
+            <div class="refresh-meta">
+                <div>Dernière MAJ: <span id="lastUpdate">--</span></div>
+                <div class="status-line">Statut: <span id="compsStatus">0 compos chargées</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="header-status" id="scrapeStatus">Prêt.</div>
+</div>
+
+<!-- ITEMS GRID -->
+<div class="items-panel">
+    <div class="items-header">
+        <span class="items-title">⚔️ ITEMS COMPLETS</span>
+        <span class="items-hint">Clic = sélectionner • Shift+Clic = retirer</span>
+        <button class="clear-btn" id="clearItems">Reset</button>
+    </div>
+
+    <div class="items-grid">
+        <div class="items-section">
+            <div class="section-label ad">🗡️ AD</div>
+            <div class="items-list" id="itemsAD"></div>
+        </div>
+        <div class="items-section">
+            <div class="section-label ap">🔮 AP</div>
+            <div class="items-list" id="itemsAP"></div>
+        </div>
+        <div class="items-section">
+            <div class="section-label tank">🛡️ TANK</div>
+            <div class="items-list" id="itemsTank"></div>
+        </div>
+        <div class="items-section">
+            <div class="section-label util">🎯 UTIL</div>
+            <div class="items-list" id="itemsUtil"></div>
+        </div>
+    </div>
+</div>
+
+<!-- SELECTED ITEMS -->
+<div class="selected-panel" id="selectedPanel">
+    <div class="selected-title">✨ Tes items:</div>
+    <div class="selected-list" id="selectedList"></div>
+</div>
+
+<!-- RECOMMENDATIONS -->
+<div class="recs-panel" id="recsPanel">
+    <div class="recs-header">
+        <span class="recs-title">🏆 TOP COMPOS POUR TES ITEMS</span>
+    </div>
+    <div class="recs-list" id="recsList">
+        <div class="recs-empty">Sélectionne des items pour voir les recommandations</div>
+    </div>
+</div>
+
+<!-- ALL COMPS -->
+<div class="comps-panel">
+    <div class="comps-header">
+        <span class="comps-title">📋 TOUTES LES COMPOS</span>
+        <span class="comps-count" id="compsCount">15 compos</span>
+    </div>
+    <div class="comps-list" id="compsList"></div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
