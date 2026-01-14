@@ -1,0 +1,225 @@
+{
+  "components": [
+    { "id": "bf", "name": "Épée", "type": "ad" },
+    { "id": "bow", "name": "Arc", "type": "ad" },
+    { "id": "rod", "name": "Baguette", "type": "ap" },
+    { "id": "tear", "name": "Larme", "type": "ap" },
+    { "id": "belt", "name": "Ceinture", "type": "tank" },
+    { "id": "vest", "name": "Armure", "type": "tank" },
+    { "id": "cloak", "name": "Négatron", "type": "tank" },
+    { "id": "glove", "name": "Gants", "type": "util" },
+    { "id": "spat", "name": "Spatule", "type": "util" }
+  ],
+  "items": [
+    {
+      "id": "guinsoo",
+      "name": "Lame enragée de Guinsoo",
+      "recipe": ["bf", "rod"],
+      "type": "ad"
+    },
+    {
+      "id": "ie",
+      "name": "Lame d'infini",
+      "recipe": ["bf", "glove"],
+      "type": "ad"
+    },
+    {
+      "id": "bt",
+      "name": "Soif-de-sang",
+      "recipe": ["bf", "cloak"],
+      "type": "ad"
+    },
+    {
+      "id": "deathblade",
+      "name": "Buff rouge",
+      "recipe": ["bf", "bf"],
+      "type": "ad"
+    },
+    {
+      "id": "gs",
+      "name": "Tueur de géants",
+      "recipe": ["bf", "bow"],
+      "type": "ad"
+    },
+    {
+      "id": "shojin",
+      "name": "Lance de Shojin",
+      "recipe": ["bf", "tear"],
+      "type": "ad"
+    },
+    {
+      "id": "lw",
+      "name": "Dernier souffle",
+      "recipe": ["bow", "glove"],
+      "type": "ad"
+    },
+    {
+      "id": "titans",
+      "name": "Détermination du titan",
+      "recipe": ["bow", "vest"],
+      "type": "ad"
+    },
+    {
+      "id": "runaan",
+      "name": "Fureur du kraken",
+      "recipe": ["bow", "bow"],
+      "type": "ad"
+    },
+    {
+      "id": "statikk",
+      "name": "Pistolame Hextech",
+      "recipe": ["bow", "rod"],
+      "type": "ad"
+    },
+    {
+      "id": "sterak",
+      "name": "Gage de Sterak",
+      "recipe": ["bf", "belt"],
+      "type": "ad"
+    },
+    {
+      "id": "eon",
+      "name": "Cœur intrépide",
+      "recipe": ["bf", "vest"],
+      "type": "ad"
+    },
+    {
+      "id": "archangel",
+      "name": "Bâton de l'archange",
+      "recipe": ["rod", "tear"],
+      "type": "ap"
+    },
+    {
+      "id": "dcap",
+      "name": "Coiffe de Rabadon",
+      "recipe": ["rod", "rod"],
+      "type": "ap"
+    },
+    {
+      "id": "jg",
+      "name": "Gantelet précieux",
+      "recipe": ["rod", "glove"],
+      "type": "ap"
+    },
+    {
+      "id": "ionic",
+      "name": "Étincelle ionique",
+      "recipe": ["rod", "cloak"],
+      "type": "ap"
+    },
+    {
+      "id": "morello",
+      "name": "Morellonomicon",
+      "recipe": ["rod", "belt"],
+      "type": "ap"
+    },
+    {
+      "id": "bluebuff",
+      "name": "Buff bleu",
+      "recipe": ["tear", "tear"],
+      "type": "ap"
+    },
+    {
+      "id": "hoj",
+      "name": "Main de la justice",
+      "recipe": ["tear", "glove"],
+      "type": "ap"
+    },
+    {
+      "id": "redemption",
+      "name": "Vœu du protecteur",
+      "recipe": ["tear", "belt"],
+      "type": "ap"
+    },
+    {
+      "id": "chalice",
+      "name": "Visage spirituel",
+      "recipe": ["tear", "cloak"],
+      "type": "ap"
+    },
+    {
+      "id": "nashors",
+      "name": "Dent de Nashor",
+      "recipe": ["bow", "rod"],
+      "type": "ap"
+    },
+    {
+      "id": "void",
+      "name": "Bâton du vide",
+      "recipe": ["rod", "cloak"],
+      "type": "ap"
+    },
+    {
+      "id": "queens",
+      "name": "Couronne de la reine",
+      "recipe": ["rod", "vest"],
+      "type": "ap"
+    },
+    {
+      "id": "warmog",
+      "name": "Armure de Warmog",
+      "recipe": ["belt", "belt"],
+      "type": "tank"
+    },
+    {
+      "id": "sunfire",
+      "name": "Cape solaire",
+      "recipe": ["vest", "belt"],
+      "type": "tank"
+    },
+    {
+      "id": "gargoyle",
+      "name": "Lithoplastron de gargouille",
+      "recipe": ["vest", "cloak"],
+      "type": "tank"
+    },
+    {
+      "id": "bramble",
+      "name": "Armure roncière",
+      "recipe": ["vest", "vest"],
+      "type": "tank"
+    },
+    {
+      "id": "dclaw",
+      "name": "Griffe de dragon",
+      "recipe": ["cloak", "cloak"],
+      "type": "tank"
+    },
+    {
+      "id": "nightmantle",
+      "name": "Manteau de la nuit",
+      "recipe": ["bf", "vest"],
+      "type": "tank"
+    },
+    {
+      "id": "qss",
+      "name": "Mercure",
+      "recipe": ["cloak", "glove"],
+      "type": "util"
+    },
+    {
+      "id": "thieves",
+      "name": "Gants de voleur",
+      "recipe": ["glove", "glove"],
+      "type": "util"
+    },
+    {
+      "id": "shroud",
+      "name": "Casque adaptatif",
+      "recipe": ["vest", "glove"],
+      "type": "util"
+    },
+    {
+      "id": "scourge",
+      "name": "Fléau vengeur",
+      "recipe": ["rod", "cloak"],
+      "type": "util"
+    },
+    {
+      "id": "linceul",
+      "name": "Linceul de congruence",
+      "recipe": ["belt", "glove"],
+      "type": "util"
+    }
+  ]
+}

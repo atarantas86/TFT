@@ -1,0 +1,806 @@
+{
+  "timestamp": "2026-01-11T15:10:00.000Z",
+  "source": "Manual meta data - Set 16",
+  "items": {
+    "ad": [
+      {
+        "id": "guinsoo",
+        "name": "Lame enragée de Guinsoo",
+        "recipe": [
+          "bf",
+          "rod"
+        ]
+      },
+      {
+        "id": "ie",
+        "name": "Lame d'infini",
+        "recipe": [
+          "bf",
+          "glove"
+        ]
+      },
+      {
+        "id": "bt",
+        "name": "Soif-de-sang",
+        "recipe": [
+          "bf",
+          "cloak"
+        ]
+      },
+      {
+        "id": "deathblade",
+        "name": "Buff rouge",
+        "recipe": [
+          "bf",
+          "bf"
+        ]
+      },
+      {
+        "id": "gs",
+        "name": "Tueur de géants",
+        "recipe": [
+          "bf",
+          "bow"
+        ]
+      },
+      {
+        "id": "shojin",
+        "name": "Lance de Shojin",
+        "recipe": [
+          "bf",
+          "tear"
+        ]
+      },
+      {
+        "id": "lw",
+        "name": "Dernier souffle",
+        "recipe": [
+          "bow",
+          "glove"
+        ]
+      },
+      {
+        "id": "titans",
+        "name": "Détermination du titan",
+        "recipe": [
+          "bow",
+          "vest"
+        ]
+      },
+      {
+        "id": "runaan",
+        "name": "Fureur du kraken",
+        "recipe": [
+          "bow",
+          "bow"
+        ]
+      },
+      {
+        "id": "statikk",
+        "name": "Pistolame Hextech",
+        "recipe": [
+          "bow",
+          "rod"
+        ]
+      },
+      {
+        "id": "sterak",
+        "name": "Gage de Sterak",
+        "recipe": [
+          "bf",
+          "belt"
+        ]
+      },
+      {
+        "id": "eon",
+        "name": "Cœur intrépide",
+        "recipe": [
+          "bf",
+          "vest"
+        ]
+      }
+    ],
+    "ap": [
+      {
+        "id": "archangel",
+        "name": "Bâton de l'archange",
+        "recipe": [
+          "rod",
+          "tear"
+        ]
+      },
+      {
+        "id": "dcap",
+        "name": "Coiffe de Rabadon",
+        "recipe": [
+          "rod",
+          "rod"
+        ]
+      },
+      {
+        "id": "jg",
+        "name": "Gantelet précieux",
+        "recipe": [
+          "rod",
+          "glove"
+        ]
+      },
+      {
+        "id": "ionic",
+        "name": "Étincelle ionique",
+        "recipe": [
+          "rod",
+          "cloak"
+        ]
+      },
+      {
+        "id": "morello",
+        "name": "Morellonomicon",
+        "recipe": [
+          "rod",
+          "belt"
+        ]
+      },
+      {
+        "id": "bluebuff",
+        "name": "Buff bleu",
+        "recipe": [
+          "tear",
+          "tear"
+        ]
+      },
+      {
+        "id": "hoj",
+        "name": "Main de la justice",
+        "recipe": [
+          "tear",
+          "glove"
+        ]
+      },
+      {
+        "id": "redemption",
+        "name": "Vœu du protecteur",
+        "recipe": [
+          "tear",
+          "belt"
+        ]
+      },
+      {
+        "id": "chalice",
+        "name": "Visage spirituel",
+        "recipe": [
+          "tear",
+          "cloak"
+        ]
+      },
+      {
+        "id": "nashors",
+        "name": "Dent de Nashor",
+        "recipe": [
+          "bow",
+          "rod"
+        ]
+      },
+      {
+        "id": "void",
+        "name": "Bâton du vide",
+        "recipe": [
+          "rod",
+          "cloak"
+        ]
+      },
+      {
+        "id": "queens",
+        "name": "Couronne de la reine",
+        "recipe": [
+          "rod",
+          "vest"
+        ]
+      }
+    ],
+    "tank": [
+      {
+        "id": "warmog",
+        "name": "Armure de Warmog",
+        "recipe": [
+          "belt",
+          "belt"
+        ]
+      },
+      {
+        "id": "sunfire",
+        "name": "Cape solaire",
+        "recipe": [
+          "vest",
+          "belt"
+        ]
+      },
+      {
+        "id": "gargoyle",
+        "name": "Lithoplastron de gargouille",
+        "recipe": [
+          "vest",
+          "cloak"
+        ]
+      },
+      {
+        "id": "bramble",
+        "name": "Armure roncière",
+        "recipe": [
+          "vest",
+          "vest"
+        ]
+      },
+      {
+        "id": "dclaw",
+        "name": "Griffe de dragon",
+        "recipe": [
+          "cloak",
+          "cloak"
+        ]
+      },
+      {
+        "id": "nightmantle",
+        "name": "Manteau de la nuit",
+        "recipe": [
+          "bf",
+          "vest"
+        ]
+      }
+    ],
+    "util": [
+      {
+        "id": "qss",
+        "name": "Mercure",
+        "recipe": [
+          "cloak",
+          "glove"
+        ]
+      },
+      {
+        "id": "thieves",
+        "name": "Gants de voleur",
+        "recipe": [
+          "glove",
+          "glove"
+        ]
+      },
+      {
+        "id": "shroud",
+        "name": "Casque adaptatif",
+        "recipe": [
+          "vest",
+          "glove"
+        ]
+      },
+      {
+        "id": "scourge",
+        "name": "Fléau vengeur",
+        "recipe": [
+          "rod",
+          "cloak"
+        ]
+      },
+      {
+        "id": "linceul",
+        "name": "Linceul de congruence",
+        "recipe": [
+          "belt",
+          "glove"
+        ]
+      }
+    ]
+  },
+  "comps": [
+    {
+      "id": "vayne-demacia",
+      "name": "Vayne Reroll",
+      "tier": "S",
+      "winrate": 54.2,
+      "avgPlace": 3.8,
+      "carry": "Vayne",
+      "bisItems": [
+        "guinsoo",
+        "ie",
+        "lw"
+      ],
+      "altItems": [
+        "gs",
+        "bt",
+        "titans"
+      ],
+      "tankItems": [
+        "sunfire",
+        "gargoyle",
+        "warmog"
+      ],
+      "traits": [
+        "Demacia",
+        "Slayer"
+      ],
+      "units": [
+        "Vayne",
+        "Jarvan IV",
+        "Poppy",
+        "Sona",
+        "Galio"
+      ]
+    },
+    {
+      "id": "tempo-bilge",
+      "name": "Bilgewater Tempo",
+      "tier": "S",
+      "winrate": 53.8,
+      "avgPlace": 3.9,
+      "carry": "Miss Fortune",
+      "bisItems": [
+        "shojin",
+        "jg",
+        "archangel"
+      ],
+      "altItems": [
+        "bluebuff",
+        "dcap",
+        "hoj"
+      ],
+      "tankItems": [
+        "gargoyle",
+        "dclaw",
+        "warmog"
+      ],
+      "traits": [
+        "Bilgewater",
+        "Strategist"
+      ],
+      "units": [
+        "Miss Fortune",
+        "Twisted Fate",
+        "Graves",
+        "Nautilus",
+        "Gangplank"
+      ]
+    },
+    {
+      "id": "sona-reroll",
+      "name": "Sona Reroll",
+      "tier": "S",
+      "winrate": 52.5,
+      "avgPlace": 4.0,
+      "carry": "Sona",
+      "bisItems": [
+        "archangel",
+        "jg",
+        "nashors"
+      ],
+      "altItems": [
+        "shojin",
+        "dcap",
+        "bluebuff"
+      ],
+      "tankItems": [
+        "sunfire",
+        "bramble",
+        "gargoyle"
+      ],
+      "traits": [
+        "Demacia",
+        "Multicaster"
+      ],
+      "units": [
+        "Sona",
+        "Lulu",
+        "Poppy",
+        "Jarvan IV",
+        "Galio"
+      ]
+    },
+    {
+      "id": "kaisa-void",
+      "name": "Kai'Sa Void",
+      "tier": "A",
+      "winrate": 51.8,
+      "avgPlace": 4.1,
+      "carry": "Kai'Sa",
+      "bisItems": [
+        "guinsoo",
+        "gs",
+        "titans"
+      ],
+      "altItems": [
+        "ie",
+        "bt",
+        "runaan"
+      ],
+      "tankItems": [
+        "dclaw",
+        "bramble",
+        "warmog"
+      ],
+      "traits": [
+        "Void",
+        "Slayer"
+      ],
+      "units": [
+        "Kai'Sa",
+        "Kassadin",
+        "Malzahar",
+        "Cho'Gath",
+        "Bel'Veth"
+      ]
+    },
+    {
+      "id": "draven-noxus",
+      "name": "Draven Noxus",
+      "tier": "A",
+      "winrate": 51.5,
+      "avgPlace": 4.2,
+      "carry": "Draven",
+      "bisItems": [
+        "bt",
+        "ie",
+        "lw"
+      ],
+      "altItems": [
+        "gs",
+        "guinsoo",
+        "db"
+      ],
+      "tankItems": [
+        "sunfire",
+        "gargoyle",
+        "redemption"
+      ],
+      "traits": [
+        "Noxus",
+        "Slayer"
+      ],
+      "units": [
+        "Draven",
+        "Darius",
+        "Samira",
+        "Kled",
+        "Swain"
+      ]
+    },
+    {
+      "id": "seraphine-zaun",
+      "name": "Seraphine Zaun",
+      "tier": "A",
+      "winrate": 51.2,
+      "avgPlace": 4.2,
+      "carry": "Seraphine",
+      "bisItems": [
+        "bluebuff",
+        "jg",
+        "archangel"
+      ],
+      "altItems": [
+        "shojin",
+        "dcap",
+        "morello"
+      ],
+      "tankItems": [
+        "gargoyle",
+        "sunfire",
+        "redemption"
+      ],
+      "traits": [
+        "Zaun",
+        "Multicaster"
+      ],
+      "units": [
+        "Seraphine",
+        "Ekko",
+        "Zeri",
+        "Renata",
+        "Urgot"
+      ]
+    },
+    {
+      "id": "kindred-shadow",
+      "name": "Kindred Shadow",
+      "tier": "A",
+      "winrate": 50.9,
+      "avgPlace": 4.3,
+      "carry": "Kindred",
+      "bisItems": [
+        "guinsoo",
+        "hoj",
+        "lw"
+      ],
+      "altItems": [
+        "ie",
+        "gs",
+        "runaan"
+      ],
+      "tankItems": [
+        "dclaw",
+        "bramble",
+        "gargoyle"
+      ],
+      "traits": [
+        "Shadow Isles",
+        "Reaper"
+      ],
+      "units": [
+        "Kindred",
+        "Senna",
+        "Gwen",
+        "Thresh",
+        "Viego"
+      ]
+    },
+    {
+      "id": "ap-demacia",
+      "name": "AP Demacia",
+      "tier": "A",
+      "winrate": 50.5,
+      "avgPlace": 4.4,
+      "carry": "Lux",
+      "bisItems": [
+        "jg",
+        "dcap",
+        "archangel"
+      ],
+      "altItems": [
+        "shojin",
+        "bluebuff",
+        "ionic"
+      ],
+      "tankItems": [
+        "sunfire",
+        "gargoyle",
+        "warmog"
+      ],
+      "traits": [
+        "Demacia",
+        "Sorcerer"
+      ],
+      "units": [
+        "Lux",
+        "Sona",
+        "Jarvan IV",
+        "Galio",
+        "Kayle"
+      ]
+    },
+    {
+      "id": "ashe-freljord",
+      "name": "Ashe Freljord",
+      "tier": "B",
+      "winrate": 49.8,
+      "avgPlace": 4.5,
+      "carry": "Ashe",
+      "bisItems": [
+        "guinsoo",
+        "gs",
+        "runaan"
+      ],
+      "altItems": [
+        "ie",
+        "lw",
+        "shiv"
+      ],
+      "tankItems": [
+        "sunfire",
+        "dclaw",
+        "warmog"
+      ],
+      "traits": [
+        "Freljord",
+        "Deadeye"
+      ],
+      "units": [
+        "Ashe",
+        "Sejuani",
+        "Lissandra",
+        "Olaf",
+        "Ornn"
+      ]
+    },
+    {
+      "id": "kalista-guardian",
+      "name": "Kalista Guardians",
+      "tier": "B",
+      "winrate": 49.5,
+      "avgPlace": 4.5,
+      "carry": "Kalista",
+      "bisItems": [
+        "guinsoo",
+        "bt",
+        "titans"
+      ],
+      "altItems": [
+        "ie",
+        "lw",
+        "runaan"
+      ],
+      "tankItems": [
+        "bramble",
+        "dclaw",
+        "gargoyle"
+      ],
+      "traits": [
+        "Shadow Isles",
+        "Guardian"
+      ],
+      "units": [
+        "Kalista",
+        "Thresh",
+        "Shen",
+        "Braum",
+        "Taric"
+      ]
+    },
+    {
+      "id": "viego-conqueror",
+      "name": "Viego King",
+      "tier": "B",
+      "winrate": 49.2,
+      "avgPlace": 4.6,
+      "carry": "Viego",
+      "bisItems": [
+        "bt",
+        "titans",
+        "eon"
+      ],
+      "altItems": [
+        "ie",
+        "sterak",
+        "qss"
+      ],
+      "tankItems": [
+        "sunfire",
+        "gargoyle",
+        "redemption"
+      ],
+      "traits": [
+        "Shadow Isles",
+        "Conqueror"
+      ],
+      "units": [
+        "Viego",
+        "Gwen",
+        "Thresh",
+        "Hecarim",
+        "Mordekaiser"
+      ]
+    },
+    {
+      "id": "ap-noxus",
+      "name": "AP Noxus",
+      "tier": "B",
+      "winrate": 48.8,
+      "avgPlace": 4.7,
+      "carry": "Katarina",
+      "bisItems": [
+        "jg",
+        "hoj",
+        "shojin"
+      ],
+      "altItems": [
+        "bluebuff",
+        "dcap",
+        "gunblade"
+      ],
+      "tankItems": [
+        "sunfire",
+        "bramble",
+        "dclaw"
+      ],
+      "traits": [
+        "Noxus",
+        "Assassin"
+      ],
+      "units": [
+        "Katarina",
+        "Samira",
+        "Darius",
+        "Swain",
+        "Mordekaiser"
+      ]
+    },
+    {
+      "id": "gangplank-slayer",
+      "name": "Gangplank Slayer",
+      "tier": "B",
+      "winrate": 48.5,
+      "avgPlace": 4.7,
+      "carry": "Gangplank",
+      "bisItems": [
+        "ie",
+        "lw",
+        "gs"
+      ],
+      "altItems": [
+        "bt",
+        "titans",
+        "db"
+      ],
+      "tankItems": [
+        "gargoyle",
+        "dclaw",
+        "warmog"
+      ],
+      "traits": [
+        "Bilgewater",
+        "Slayer"
+      ],
+      "units": [
+        "Gangplank",
+        "Miss Fortune",
+        "Graves",
+        "Illaoi",
+        "Twisted Fate"
+      ]
+    },
+    {
+      "id": "belveth-void",
+      "name": "Bel'Veth Void",
+      "tier": "B",
+      "winrate": 48.2,
+      "avgPlace": 4.8,
+      "carry": "Bel'Veth",
+      "bisItems": [
+        "titans",
+        "bt",
+        "guinsoo"
+      ],
+      "altItems": [
+        "ie",
+        "qss",
+        "eon"
+      ],
+      "tankItems": [
+        "dclaw",
+        "sunfire",
+        "gargoyle"
+      ],
+      "traits": [
+        "Void",
+        "Empress"
+      ],
+      "units": [
+        "Bel'Veth",
+        "Kai'Sa",
+        "Kassadin",
+        "Malzahar",
+        "Cho'Gath"
+      ]
+    },
+    {
+      "id": "ryze-mage",
+      "name": "Ryze Multicaster",
+      "tier": "B",
+      "winrate": 47.8,
+      "avgPlace": 4.9,
+      "carry": "Ryze",
+      "bisItems": [
+        "archangel",
+        "bluebuff",
+        "dcap"
+      ],
+      "altItems": [
+        "jg",
+        "shojin",
+        "ionic"
+      ],
+      "tankItems": [
+        "gargoyle",
+        "bramble",
+        "redemption"
+      ],
+      "traits": [
+        "Bilgewater",
+        "Multicaster"
+      ],
+      "units": [
+        "Ryze",
+        "Twisted Fate",
+        "Taliyah",
+        "Sona",
+        "Lux"
+      ]
+    }
+  ]
+}
