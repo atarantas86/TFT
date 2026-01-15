@@ -50,6 +50,8 @@ const normalizeList = (value) => {
             entry.itemId ||
             entry.unitId ||
             entry.championId ||
+            entry.characterId ||
+            entry.character_id ||
             entry.apiName ||
             entry.name ||
             entry.displayName ||
@@ -129,7 +131,8 @@ const isCompLike = (entry) => {
   const name = pickString(entry, ['name', 'compName', 'compositionName', 'title']);
   const winrate = pickNumber(entry, ['winrate', 'winRate', 'win_rate', 'stats.winrate']);
   const avgPlace = pickNumber(entry, ['avgPlace', 'avgPlacement', 'stats.avgPlacement']);
-  return Boolean(name && (winrate !== null || avgPlace !== null));
+  const units = entry.units || entry.champions || entry.board || entry.finalUnits || entry.coreUnits;
+  return Boolean(name && (winrate !== null || avgPlace !== null || units));
 };
 
 const findCompsInPayload = (payload) => {
@@ -172,6 +175,15 @@ const loadItems = () => {
   return itemsByType;
 };
 
+const safeJsonParse = (value) => {
+  if (!value || typeof value !== 'string') return null;
+  try {
+    return JSON.parse(value);
+  } catch (error) {
+    return null;
+  }
+};
+
 const extractFromResponses = async (page) => {
   const payloads = [];
   page.on('response', async (response) => {
@@ -179,9 +191,10 @@ const extractFromResponses = async (page) => {
       const url = response.url();
       if (!url.includes('tactics.tools')) return;
       const contentType = response.headers()['content-type'] || '';
-      if (!contentType.includes('application/json')) return;
-      const data = await response.json();
-      payloads.push(data);
+      if (!/(json|text\/plain|application\/octet-stream)/i.test(contentType)) return;
+      const text = await response.text();
+      const data = safeJsonParse(text);
+      if (data) payloads.push(data);
     } catch (error) {
       // Ignore parsing errors
     }
@@ -199,10 +212,87 @@ const extractFromResponses = async (page) => {
   return [];
 };
 
+const extractFromEmbeddedJson = async (page) => {
+  const scripts = await page.evaluate(() => {
+    const entries = [];
+    document.querySelectorAll('script[type="application/json"]').forEach((script) => {
+      if (script.textContent) entries.push(script.textContent);
+    });
+    return entries;
+  });
+
+  for (const script of scripts) {
+    const parsed = safeJsonParse(script);
+    if (!parsed) continue;
+    const comps = findCompsInPayload(parsed);
+    if (comps.length >= 10) return comps;
+  }
+  return [];
+};
+
 const extractFromNuxt = async (page) => {
-  const nuxtPayload = await page.evaluate(() => window.__NUXT__ || window.__NEXT_DATA__ || null);
+  const nuxtPayload = await page.evaluate(() =>
+    window.__NUXT__ || window.__NEXT_DATA__ || window.__DATA__ || window.__APOLLO_STATE__ || null
+  );
   if (!nuxtPayload) return [];
   return findCompsInPayload(nuxtPayload);
+};
+
+const extractFromDom = async (page) => {
+  const comps = await page.evaluate(() => {
+    const cards = Array.from(
+      document.querySelectorAll(
+        '[data-comp], [data-comp-name], [data-test*="comp"], .team-comp, .comp-card, .comp'
+      )
+    );
+
+    const pickText = (el, selectors) => {
+      for (const selector of selectors) {
+        const node = el.querySelector(selector);
+        if (node && node.textContent) return node.textContent.trim();
+      }
+      return '';
+    };
+
+    const extractNumber = (text) => {
+      if (!text) return null;
+      const match = text.replace(',', '.').match(/([0-9]+\.?[0-9]*)/);
+      if (!match) return null;
+      return Number.parseFloat(match[1]);
+    };
+
+    return cards
+      .map((card) => {
+        const name = pickText(card, ['.comp-name', '.name', '[data-comp-name]']) || card.getAttribute('data-comp-name');
+        const tier =
+          pickText(card, ['.comp-tier', '.tier', '.rank']) ||
+          (card.textContent.match(/\b[SA]\b/) || [])[0];
+        const winrateText = pickText(card, ['.comp-wr', '.winrate', '.wr']);
+        const avgText = pickText(card, ['.avg-place', '.avg', '.placement']);
+        const units = Array.from(card.querySelectorAll('img'))
+          .map((img) => img.getAttribute('alt') || img.getAttribute('data-unit') || img.getAttribute('data-champion'))
+          .filter(Boolean);
+        const items = Array.from(card.querySelectorAll('[data-item], .item, .bis-item, .comp-bis-item'))
+          .map((el) =>
+            el.getAttribute('data-item') ||
+            el.getAttribute('data-item-id') ||
+            (el.textContent ? el.textContent.trim() : '')
+          )
+          .filter(Boolean);
+
+        return {
+          name,
+          tier,
+          winrate: extractNumber(winrateText),
+          avgPlace: extractNumber(avgText),
+          units,
+          bisItems: items
+        };
+      })
+      .filter((comp) => comp.name);
+  });
+
+  return comps;
 };
 
 const scrapeAll = async () => {
@@ -218,11 +308,9 @@ const scrapeAll = async () => {
     );
 
     let rawComps = await extractFromResponses(page);
-    if (!rawComps.length) {
-      await page.goto(SCRAPE_URL, { waitUntil: 'networkidle2', timeout: 120000 });
-      await sleep(3000);
-      rawComps = await extractFromNuxt(page);
-    }
+    if (!rawComps.length) rawComps = await extractFromNuxt(page);
+    if (!rawComps.length) rawComps = await extractFromEmbeddedJson(page);
+    if (!rawComps.length) rawComps = await extractFromDom(page);
 
     if (!rawComps.length) {
       throw new Error('Impossible de récupérer les données via Tactics.tools.');
